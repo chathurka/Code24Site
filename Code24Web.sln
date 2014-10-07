@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Code24Web", "Code24Web\Code24Web.csproj", "{19BA833A-1302-449D-A21F-EFBDE235DF55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Code24Web.Tests", "Code24Web.Tests\Code24Web.Tests.csproj", "{C8F4665F-CF7F-4011-B075-C40B9DFA763E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19BA833A-1302-449D-A21F-EFBDE235DF55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19BA833A-1302-449D-A21F-EFBDE235DF55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19BA833A-1302-449D-A21F-EFBDE235DF55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19BA833A-1302-449D-A21F-EFBDE235DF55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8F4665F-CF7F-4011-B075-C40B9DFA763E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8F4665F-CF7F-4011-B075-C40B9DFA763E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8F4665F-CF7F-4011-B075-C40B9DFA763E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8F4665F-CF7F-4011-B075-C40B9DFA763E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

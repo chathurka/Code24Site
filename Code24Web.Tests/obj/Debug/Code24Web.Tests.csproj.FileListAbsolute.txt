@@ -1,0 +1,8 @@
+c:\users\dhanushkag\documents\visual studio 2010\Projects\Code24Web\Code24Web.Tests\bin\Debug\Code24Web.Tests.dll.config
+c:\users\dhanushkag\documents\visual studio 2010\Projects\Code24Web\Code24Web.Tests\bin\Debug\Code24Web.Tests.dll
+c:\users\dhanushkag\documents\visual studio 2010\Projects\Code24Web\Code24Web.Tests\bin\Debug\Code24Web.Tests.pdb
+c:\users\dhanushkag\documents\visual studio 2010\Projects\Code24Web\Code24Web.Tests\bin\Debug\Code24Web.dll
+c:\users\dhanushkag\documents\visual studio 2010\Projects\Code24Web\Code24Web.Tests\bin\Debug\Code24Web.pdb
+c:\users\dhanushkag\documents\visual studio 2010\Projects\Code24Web\Code24Web.Tests\obj\Debug\Code24Web.Tests.csprojResolveAssemblyReference.cache
+c:\users\dhanushkag\documents\visual studio 2010\Projects\Code24Web\Code24Web.Tests\obj\Debug\Code24Web.Tests.dll
+c:\users\dhanushkag\documents\visual studio 2010\Projects\Code24Web\Code24Web.Tests\obj\Debug\Code24Web.Tests.pdb

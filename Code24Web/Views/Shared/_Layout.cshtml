@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+<!-- templatemo 417 grill -->
+<!-- 
+Grill Template 
+http://www.templatemo.com/preview/templatemo_417_grill 
+-->
+    <head>
+        <meta charset="utf-8">
+        <title>@ViewBag.Title</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+         <link href="@Url.Content("~/Content/css/bootstrap.css")" rel="stylesheet" type="text/css" />
+         <link href="@Url.Content("~/Content/css/font-awesome.css")" rel="stylesheet" type="text/css" />
+         <link href="@Url.Content("~/Content/css/templatemo_style.css")" rel="stylesheet" type="text/css" />
+         <link href="@Url.Content("~/Content/css/templatemo_misc.css")" rel="stylesheet" type="text/css" />
+         <link href="@Url.Content("~/Content/css/flexslider.css")" rel="stylesheet" type="text/css" />
+         <link href="@Url.Content("~/Content/css/testimonails-slider.css")" rel="stylesheet" type="text/css" />
+
+@*        <link rel="stylesheet" href="Content/css/bootstrap.css">
+        <link rel="stylesheet" href="Content/css/font-awesome.css">
+        <link rel="stylesheet" href="Content/css/templatemo_style.css">
+        <link rel="stylesheet" href="Content/css/templatemo_misc.css">
+        <link rel="stylesheet" href="Content/css/flexslider.css">
+        <link rel="stylesheet" href="Content/css/testimonails-slider.css">*@
+      
+        @*<script src="Content/js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>*@
+         <script src="@Url.Content("~/Content/js/vendor/modernizr-2.6.1-respond-1.1.0.min.js")" type="text/javascript"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+        <![endif]-->
+
+            <header>
+                <div id="top-header">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="home-account">
+                                    <a href="#">Home</a>
+                                    <a href="#">My account</a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="cart-info">
+                                    <i class="fa fa-shopping-cart"></i>
+                                    (<a href="#">5 items</a>) in your cart (<a href="#">$45.80</a>)
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="main-header">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="logo">
+                                    <a href="#templatemo_417_grill"><img src="/images/logo.png" alt="Grill Website Template by templatemo.com" width="240" height="55" title="Grill Template by templatemo.com" ></a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="main-menu">
+                                    <ul>
+@*                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="about-us.html">About</a></li>
+                                        <li><a href="products.html">Products</a></li>
+                                        <li><a href="contact-us.html">Contact</a></li>*@
+                                        
+                                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                                        <li>@Html.ActionLink("Sevices", "Services", "Home")</li>
+                                        <li>@Html.ActionLink("About", "About", "Home")</li>
+                                        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="search-box">  
+                                    <form name="search_form" method="get" class="search_form">
+                                        <input id="search" type="text" />
+                                        <input type="submit" id="search-button" />
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            
+            @RenderBody()
+
+
+
+<footer>
+                <div class="container">
+                    @*<div class="top-footer">
+                        <div class="row">
+                            <div class="col-md-9">
+                                <div class="subscribe-form">
+                                    <span>Get in touch with us</span>
+                                    <form method="get" class="subscribeForm">
+                                        <input id="subscribe" type="text" />
+                                        <input type="submit" id="submitButton" />
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="social-bottom">
+                                    <span>Follow us:</span>
+                                    <ul>
+                                        <li><a href="#" class="fa fa-facebook"></a></li>
+                                        <li><a href="#" class="fa fa-twitter"></a></li>
+                                        <li><a href="#" class="fa fa-rss"></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>*@
+                    <div class="main-footer">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="about">
+                                    <h4 class="footer-title">About Grill</h4>
+                                    <p>Grill is <a rel="nofollow" href="http://www.templatemo.com">free HTML5 website template</a> by templatemo and it is a free responsive bootstrap layout that can be applied for any purpose. 
+                                    <br><br>Credit goes to <a rel="nofollow" href="http://unsplash.com">Unsplash</a> for photos used in this template. Nam commodo erat quis ligula placerat viverra.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="shop-list">
+                                    <h4 class="footer-title">Quick Links</h4>
+                                    <ul>
+                                        <li>@Html.ActionLink("H o m e", "Index", "Home")</li>
+                                        <li>@Html.ActionLink("S e r v i c e s", "Services", "Home")</li>
+                                        <li>@Html.ActionLink("A b o u t", "About", "Home")</li>
+                                        <li>@Html.ActionLink("C o n t a c t", "Contact", "Home")</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-3 social-bottom">
+                                @* <div class="social-bottom">*@
+                                      <h4 class="footer-title">Follow us</h4>
+                                    <ul>
+                                        <li><a href="#" class="fa fa-facebook"></a></li>
+                                        <li><a href="#" class="fa fa-twitter"></a></li>
+                                        <li><a href="#" class="fa fa-linkedin"></a></li>
+                                        <li><a href="#" class="fa fa-google-plus"></a></li>
+                                    </ul>
+                               @* </div>*@
+                            </div>
+                            <div class="col-md-3">
+                                <div class="more-info">
+                                    <h4 class="footer-title">More info</h4>
+                                    <p>We are eager to hear from you.Feel free to contact us any time for more information.</p>
+                                    <ul>
+                                        <li><i class="fa fa-phone"></i>010-020-0340</li>
+                                        <li><i class="fa fa-globe"></i>123 Dagon Studio, Yakin Street, Digital Estate</li>
+                                        <li><i class="fa fa-envelope"></i><a href="#">info@code24lanka.com</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom-footer">
+                        <p>Copyright © 2084 <a href="#">Code24 Lanka (Pvt) Ltd</a></p>
+                    </div>
+                    
+                </div>
+            </footer>
+
+    
+@*        <script src="Content/js/vendor/jquery-1.11.0.min.js"></script>
+        <script src="Content/js/vendor/jquery.gmap3.min.js"></script>
+        <script src="Content/js/plugins.js"></script>
+        <script src="Content/js/main.js"></script>*@
+
+         <script src="@Url.Content("~/Content/js/vendor/jquery-1.11.0.min.js")" type="text/javascript"></script>
+         <script src="@Url.Content("~/Content/js/vendor/jquery.gmap3.min.js")" type="text/javascript"></script>
+         <script src="@Url.Content("~/Content/js/plugins.js")" type="text/javascript"></script>
+         <script src="@Url.Content("~/Content/js/main.js")" type="text/javascript"></script>
+
+    </body>
+</html>

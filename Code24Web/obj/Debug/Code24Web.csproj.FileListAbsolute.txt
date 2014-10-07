@@ -1,0 +1,6 @@
+c:\users\dhanushkag\documents\visual studio 2010\Projects\Code24Web\Code24Web\bin\Code24Web.dll
+c:\users\dhanushkag\documents\visual studio 2010\Projects\Code24Web\Code24Web\bin\Code24Web.pdb
+c:\users\dhanushkag\documents\visual studio 2010\Projects\Code24Web\Code24Web\bin\EntityFramework.dll
+c:\users\dhanushkag\documents\visual studio 2010\Projects\Code24Web\Code24Web\bin\EntityFramework.xml
+c:\users\dhanushkag\documents\visual studio 2010\Projects\Code24Web\Code24Web\obj\Debug\Code24Web.dll
+c:\users\dhanushkag\documents\visual studio 2010\Projects\Code24Web\Code24Web\obj\Debug\Code24Web.pdb
