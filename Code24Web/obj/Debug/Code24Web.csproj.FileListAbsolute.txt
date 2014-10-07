@@ -4,3 +4,10 @@ c:\users\dhanushkag\documents\visual studio 2010\Projects\Code24Web\Code24Web\bi
 c:\users\dhanushkag\documents\visual studio 2010\Projects\Code24Web\Code24Web\bin\EntityFramework.xml
 c:\users\dhanushkag\documents\visual studio 2010\Projects\Code24Web\Code24Web\obj\Debug\Code24Web.dll
 c:\users\dhanushkag\documents\visual studio 2010\Projects\Code24Web\Code24Web\obj\Debug\Code24Web.pdb
+C:\Users\DhanushkaG\Desktop\Code24Site\Code24Web\bin\Code24Web.dll
+C:\Users\DhanushkaG\Desktop\Code24Site\Code24Web\bin\Code24Web.pdb
+C:\Users\DhanushkaG\Desktop\Code24Site\Code24Web\bin\EntityFramework.dll
+C:\Users\DhanushkaG\Desktop\Code24Site\Code24Web\bin\EntityFramework.xml
+C:\Users\DhanushkaG\Desktop\Code24Site\Code24Web\obj\Debug\Code24Web.csprojResolveAssemblyReference.cache
+C:\Users\DhanushkaG\Desktop\Code24Site\Code24Web\obj\Debug\Code24Web.dll
+C:\Users\DhanushkaG\Desktop\Code24Site\Code24Web\obj\Debug\Code24Web.pdb
